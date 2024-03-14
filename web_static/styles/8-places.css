@@ -1,0 +1,116 @@
+.places article {
+    width: 390px;
+    padding: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    position: relative;
+    min-height: 60%;
+    left: 3%;
+    display: inline-block;
+    margin: 20px auto;
+    vertical-align: bottom;
+}
+
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.places h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    /*position & bottom for moving up*/
+    position: relative;
+    bottom: 20px;
+}
+
+.price_by_night {
+    border: #FF5A5F 4px solid;
+    color: #FF5A5F;
+    float: right;
+    border-radius: 50%;
+    height: 60px;
+    min-width: 60px;
+    font-size: 30px;
+    line-height: 2.0em;
+    position: absolute;
+    right: 0;
+    top: -8%;
+    padding: 2%;
+}
+
+.information {
+    height: 80px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.max_guest {
+    background-image: url(../images/icon_group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+}
+
+.number_rooms {
+    background-image: url(../images/icon_bed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+}
+
+.number_bathrooms {
+    background-image: url(../images/icon_bath.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+}
+
+.number_rooms div,
+.max_guest div,
+.number_bathrooms div {
+    position: absolute;
+    bottom: 0;
+    padding-left: 15%;
+}
+
+.user {
+    margin-top: 5%;
+    line-height: 2em;
+}
+
+.user,
+.description {
+    text-align: left;
+}
+
+/*this is for price tag*/
+
+.name_price {
+    position: relative;
+}
+
+/*for spreading the slits of the inline blocks*/
+
+.janky_div {
+    display: inline-block;
+    margin: 2%;
+}
